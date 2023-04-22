@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrer for My Event</title>
+</head>
+<body>
+    <form action="thankyou.html" method="get">
+        <table width="900px" align="center">
+            <tr align="center">
+                <td colspan="2">
+<h2>
+    Register to My Event
+</h2>
+                </td>
+            </tr>
+            <tr>
+<td>
+    <Label for="fullname"> Enter Your Full Name</Label> 
+</td>
+<td>
+    <input type="text" id="fullname" size="25" maxlength="25" placeholder="Fullname" name="fullname" required>
+</td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="username"> Select a Username:</label>
+                </td>
+                <td>
+                    <input type="text" id="username" size="25" maxlength="15" placeholder="Username" name="username" required>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="psw"> Enter A Password:</label></td>
+                <td> 
+                    <input type="text" id="psw" size="25" maxlength="10" placeholder="Password" name="psw"required>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Female"> Select Your Gender:</label></td>
+                <td> 
+                    <input type="radio" id="Female" name="gender" value="Female">Female
+                    <input type="radio" id="Male" name="gender" value="Male">Male
+                </td>
+            </tr>
+            <tr>
+                <td><label for="mailer1"> Check For Our Mailers:</label></td>
+                <td> 
+                    <input type="checkbox" id="mailer1" name="mailer1" value="Fashion" checked>Fashion Magazine
+                    <input type="checkbox" id="mailer2" name="mailer2" value="News">Latest News
+                </td>
+            </tr>
+            <tr>
+                <td><label for="dob"> Enter Your Date Of Birth:</label></td>
+                <td> 
+                    <input type="date" id="dob" name="dob" required>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="photo"> Upload Your Photo:</label></td>
+                <td> 
+                    <input type="file" id="photo" name="photo" required>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="country"> Select Your Country:</label></td>
+                <td> 
+                    <select name="country" id="country">
+                        <option value="#">Select</option>
+                        <option value="Antartica">Antartica</option>
+                        <option value="Brazil">Brazil</option>
+                        <option value="Cuba">Cuba</option>
+                        <option value="Deccan">Deccan</option>
+                        <option value="Germany">Germany</option>
+                        <option value="India">India</option>
+                        <option value="Russia">Russia</option>
+                        <option value="USA">USA</option>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="address"> Enter Your Address:</label></td>
+                </td>
+                <td>
+                    <textarea name="addrerss" id="address" cols="30" rows="3" placeholder="Enter Your Address Here">
+                        Enter Your Address Here
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="browser">Choose your browser from the list:</label></td>
+                <td><input list="browsers" name="browser" id="browser"></td>
+
+<datalist id="browsers">
+  <option value="Edge">
+  <option value="Firefox">
+  <option value="Chrome">
+  <option value="Opera">
+  <option value="Safari">
+</datalist>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Submit My Form">
+                </td>
+                <td>
+                    <input type="reset" value="Reset My Form"
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

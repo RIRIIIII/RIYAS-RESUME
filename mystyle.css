@@ -1,0 +1,14 @@
+p {
+    color:rgb(106, 255, 46);
+    font-size: 25px;
+    border-style: double;
+    border-color: darkgreen;
+    border-radius: 8px;
+    border-width: 3px;
+    background-image: linear-gradient(rgb(199, 74, 230), rgb(8, 151, 173));
+}
+
+/* selector {
+property : value;
+property : value;
+} */
